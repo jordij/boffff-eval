@@ -1,0 +1,16 @@
+########################################################################
+# Input data and values for global variables 
+########################################################################
+
+sim.intra.prefix: Intra_
+
+data:
+  boffff: ./data/hoki/fecundity_80_min_cost.tif
+  nzscc.groups: ./data/NZSCC/CMB.GF75_EEZ_TS-1km_Final.tif
+  nzscc.intra.sim: ./data/NZSCC/Intra/
+  richness:
+    BI: ./data/richness/BI_rich_proj.tif
+    DF: ./data/richness/DF_rich_proj.tif
+    MA: ./data/richness/MA_rich_proj.tif
+    RF: ./data/richness/RF_rich_proj.tif
+  vme: ./data/VME/VME_ind_top5.tif
